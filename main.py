@@ -24,8 +24,7 @@ while True:
         pass
        # removesocks()
     elif choice == "3":
-        pass
-       # vieworder()
+       vieworder()
     elif choice == "4":
         break
     else:
