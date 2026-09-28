@@ -10,6 +10,10 @@ def addsocks():
         return 0
     else:
         return amount
+        
+def vieworder():
+    global socks
+    print("Socks:", socks)
 
 print("The Sock Shop\n")
 while True:
