@@ -7,9 +7,8 @@ def addsocks():
     amount = int(input("\nEnter the amount of socks you'd like to add: "))
     if amount < 0:
         print("Invalid input")
-        return 0
     else:
-        return socks += amount
+        socks += amount
         
 def vieworder():
     global socks
