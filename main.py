@@ -9,7 +9,7 @@ def addsocks():
         print("Invalid input")
         return 0
     else:
-        return amount
+        return socks += amount
         
 def vieworder():
     global socks
