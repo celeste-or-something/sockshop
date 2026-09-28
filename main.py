@@ -12,6 +12,7 @@ def addsocks():
         print("Invalid input\n")
     else:
         socks += quantity
+        vieworder()
         
 def vieworder():
     global socks
