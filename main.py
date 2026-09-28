@@ -5,14 +5,15 @@ socks = 0
 def addsocks():
     global socks
     amount = int(input("\nEnter the amount of socks you'd like to add: "))
+    print("\n")
     if amount < 0:
-        print("Invalid input")
+        print("Invalid input\n")
     else:
         socks += amount
         
 def vieworder():
     global socks
-    print("Socks:", socks)
+    print("\nSocks:", socks, "\n")
 
 print("The Sock Shop\n")
 while True:
