@@ -13,7 +13,7 @@ def addsocks():
         
 def vieworder():
     global socks
-    print("Socks:", socks, "\n")
+    print("\nSocks:", socks, "\n")
 
 print("The Sock Shop\n")
 while True:
